@@ -32,6 +32,8 @@ namespace TotvsTest.Controllers
         {
             var order = _dbContext.Orders.FirstOrDefault(o => o.Id == id);
 
+            order.Code = string.Empty;
+
             return Ok(order);
         }
 
