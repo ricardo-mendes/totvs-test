@@ -8,8 +8,7 @@ se o Post está recebendo uma lista de produtos onde o front pode manipular o va
 
 3) O get by id tem algum ponto de melhoria? Levando em conta que o code sempre precisa retornar vazio.
 
-4) O Post de order precisa somar o total de cada produto já cadastrado 
-e retornar no response do Post.
+4) Retornar no Post o valor total dos produtos cadastrados.
 
 5) Pensando que o projeto pode crescer, como você faria em relação a arquitetura?
 
